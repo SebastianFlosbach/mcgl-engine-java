@@ -1,4 +1,4 @@
-package Eventing;
+package Eventing.Key;
 
 public enum EKeyEventType {
     Pressed,

@@ -1,4 +1,4 @@
-package Eventing;
+package Eventing.Mouse;
 
 public enum EMouseEventType {
     ButtonPress,

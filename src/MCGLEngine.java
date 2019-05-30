@@ -1,5 +1,5 @@
-import Eventing.IKeyEventCallback;
-import Eventing.IMouseEventCallback;
+import Eventing.Key.IKeyEventCallback;
+import Eventing.Mouse.IMouseEventCallback;
 import Eventing.IStatusEventCallback;
 
 public class MCGLEngine {
@@ -21,8 +21,8 @@ public class MCGLEngine {
     native void RemoveChunk( ChunkCoordinates position );
 
     native void CreateCamera( float x, float y, float z, float pitch, float yaw, float roll );
-    native void MoveCamera( int cameraId, float dx, float dy, float dz );
-    native void RotateCamera( int cameraId, float pitch, float yaw, float roll );
+    native void MoveCamera( float dx, float dy, float dz );
+    native void RotateCamera( float pitch, float yaw, float roll );
 
     native void RegisterKeyEventCallback( IKeyEventCallback callback );
 

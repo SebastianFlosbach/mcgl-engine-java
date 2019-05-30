@@ -1,4 +1,5 @@
-package Eventing;
+package Eventing.Key;
+
 
 public class KeyEvent {
     public KeyEvent( EKeyEventType type, int key, float timePressed ){
@@ -19,7 +20,7 @@ public class KeyEvent {
         return timePressed_;
     }
 
-    EKeyEventType type_;
-    int key_;
-    float timePressed_;
+    private EKeyEventType type_;
+    private int key_;
+    private float timePressed_;
 }
