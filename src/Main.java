@@ -31,6 +31,7 @@ public class Main {
         engine.RegisterMouseEventCallback( new MouseEventCallback() );
 
         Block block = new Block(1, false, 2, 2, 2, 2, 0, 1);
+        engine.RegisterBlockType( block );
 
         Chunk chunk = new Chunk();
         chunk.setPosition( 0,0  );

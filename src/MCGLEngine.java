@@ -29,7 +29,6 @@ public class MCGLEngine {
     native void RegisterMouseEventCallback( IMouseEventCallback callback );
     native void RegisterStatusEventCallback( IStatusEventCallback callback );
 
-    native float GetDeltaTime();
     native WorldCoordinates GetCameraPosition();
 
 }
